@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
+
+/* 전체 */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  min-height: 100vh;
+}
+
+
+
+.hidden {
+  display: none !important;
+}
+
+main {
+  color: white;
+  width: 100%;
+  height: 100%;
+  font-family: "Noto Sans KR", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  vertical-align: baseline;
+  min-height: 100vh;
+}
+
+/* 입력상자 */
+input {
+  color: white;
+  font: 1em sans-serif;
+  background: local;
+  appearance: none;
+  border: 0;
+  border-bottom: 0.5rem ridge;
+  width: 50vw;
+  z-index: 1;
+}
+
+input::placeholder {
+  color: white;
+  opacity: 0.6;
+}
+
+input:focus,
+input:active {
+  outline: none;
+}
+/* 시계 */
+#clock {
+  font-size: 4em;
+}
+
+/* 로그인 폼 */
+#login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 인사 */
+#greeting-message {
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+
+/* 할일 목록 */
+#todo-form {
+  margin-top: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#todo-list {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+#todo-list li {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid;
+  margin-top: 0.7em;
+  padding: 0;
+  line-height: 200%;
+  width: 70vw;
+}
+
+#todo-list li span span {
+  opacity: 0.5;
+  font-size: smaller;
+}
+
+#todo-list li button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/* 명언 */
+#quote {
+  margin: 20% 10% 0 10%;
+  text-align: center;
+  line-height: 200%;
+}
+
+/* 날씨 */
+#wheather {
+  position: absolute;
+  right: 5%;
+  top: 2%;
+}
