@@ -5,9 +5,9 @@
 - [노마드 코더](https://nomadcoders.co/)에서 학습하고 진행한 챌린지입니다.
 
 ## 사용한 기술
-- HTML
-- CSS
-- JavaScript (Vanilla)
+- `HTML`
+- `CSS`
+- `JavaScript` (Vanilla)
 
 ## 요구사항, 기능
 - 실시간 시계
@@ -22,6 +22,6 @@
 - Unsplash 활용 랜덤 배경 이미지 변경
 - JSON을 활용한 랜덤 명언 생성
 - Date 객체와 setInterval을 이용한 시간 표시
-- fetch를 이용하여 openweathermap의 API 데이너 가져오기
+- fetch를 이용하여 openweathermap의 API 데이터 가져오기
 ## Page
 - https://euskate.github.io/momentum/
